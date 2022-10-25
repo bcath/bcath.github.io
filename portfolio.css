@@ -1,0 +1,510 @@
+/*----------------------------------------------------GENERAL----------------------------------------------------*/
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3{
+    color: rgb(97, 96, 96);
+    font-family: "Rambla";
+    
+}
+
+.spacingSpecial{
+    padding: 65px 0px;
+
+}
+
+.spacing{
+    padding: 50px 0px;
+
+}
+
+* {box-sizing:border-box}
+
+/*----------------------------------------------------HEADER----------------------------------------------------*/
+header {
+    height: 80px;
+    background-color: white;
+    /*background-color: rgb(216, 240, 251);*/
+}    
+
+
+header h1 {
+    font-family: "Quicksand";
+    float:left;
+    margin-top: 10px;
+    color: rgb(97, 96, 96);
+    
+    
+}
+header nav {
+    float: right;
+    margin-top:10px;
+
+}
+
+header nav ul li {
+    display:inline-block;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+    float: left;
+    color: rgb(97, 96, 96);
+    font-family: "Quicksand";
+    text-decoration:none;
+    
+    
+}
+
+header nav ul li a:hover {
+    color: rgb(0, 0, 0); 
+    text-decoration: underline;
+    
+     
+}
+
+
+.navbar{
+  background-image: linear-gradient(90deg, #48D1CC 0%, #40E0D0 35%, #93FFE8 100%);
+  position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+
+
+/*------------------------------------------------------ABOUT ME--------------------------------------------------*/
+#container1{
+    background-color: white;
+    height: 700px;
+    width: 100vw;
+    padding: 0 10px;
+    position: relative;
+    margin-left: -50vw; 
+    left: 50%;
+
+}
+
+#container1 h1 {
+    font-size: 50px;
+    font-family:"Quicksand";
+    color: rgb(97, 96, 96);
+    padding: 30px 30px;
+    margin: 10px 10px;
+}
+
+#container1 div h1 {
+    font-size: 30px;
+    font-family:"Quicksand";
+    color: rgb(97, 96, 96);
+    padding: 100px 10px 10px 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+#container1 div p {
+    font-size: 20px;
+    font-family:"Quicksand";
+    color: rgb(97, 96, 96);
+    padding: 0px 0px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+
+/*------------------------------------------------------SKILLS--------------------------------------------------*/
+
+
+#container2{
+  background-color: white;
+  height: 1700px;
+  width: 100vw;
+  padding: 0 10px;
+  position: relative;
+  margin-left: -50vw; 
+  left: 50%;
+}
+
+#container2 h1 {
+  position: relative;
+  font-size: 50px;
+  font-family:"Quicksand";
+  color: rgb(97, 96, 96);
+  padding: 30px 30px;
+  margin: 10px 10px;
+}
+
+#container2 div h1 {
+  font-size: 30px;
+  font-family:"Quicksand";
+  color: rgb(97, 96, 96);
+  padding: 100px 10px 10px 10px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+#container2 div p {
+  font-size: 20px;
+  font-family:"Quicksand";
+  color: rgb(97, 96, 96);
+  padding: 10px 10px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+
+/*------------------------------------------------------PROJECTS--------------------------------------------------*/
+#container3{
+    background-color: white;
+    height: 800px;
+    width: 100vw;
+    padding: 0 10px;
+    position: relative;
+    margin-left: -50vw; 
+    left: 50%;
+}
+
+#container3 h1 {
+    font-size: 50px;
+    font-family:"Quicksand";
+    color: rgb(97, 96, 96);
+    padding: 30px 30px;
+    margin: 10px 10px;
+}
+
+#container3 div p {
+  font-size: 20px;
+  font-family:"Quicksand";
+  color: rgb(97, 96, 96);
+  padding: 0px 0px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+
+/*------------------------------------------------------CONTACTS--------------------------------------------------*/
+
+#container4{
+    background-color: rgb(97, 96, 96);
+    height: 300px;
+    width: 100vw;
+    padding: 0 10px;
+    position: relative;
+    margin-left: -50vw; 
+    left: 50%;
+}
+
+#container4 h1 {
+  font-size: 50px;
+  font-family:"Quicksand";
+  color: white;
+  padding: 30px 30px;
+  margin: 10px 10px;
+}
+
+#container4 div h1{
+  font-size: 30px;
+  font-family:"Quicksand";
+  color: white;
+  padding: 100px 10px 10px 10px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+#container4 div p {
+  font-size: 20px;
+  font-family:"Quicksand";
+  color: white;
+  padding: 0px 0px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+#container4 ul {
+  position: absolute;
+  left:40%;
+  top:50%;
+  
+}
+
+
+#container4 ul li{
+  list-style: none;
+  float:left;
+  margin: 10px 40px 10px 40px;
+}
+
+
+#container4 ul li a,h2{
+  color: white;
+  list-style: none;
+  font-family: "Quicksand";
+  text-decoration: none;
+}
+
+#container4 ul li h2:hover{
+  text-decoration: underline;
+}
+
+#container4 ul li img{
+  position: relative;
+  left: 25%;
+}
+
+
+
+
+
+/*--------------------------------------------PROGRESS BAR--------------------------------------------------*/
+
+.barLine{
+    padding: 20px 20px;
+    margin: 0px 100px;
+}
+
+.barLineTitle{
+    position:relative; 
+    left:0px; 
+    top:2px;
+    text-align: start;
+}
+
+/*-----------------------------------------------SCROLLDOWN BUTTON-------------------------------------------*/
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+  }
+
+.arrowDown a{
+    position: relative;
+}
+
+@keyframes occasional-arrow-bounce {
+    0% { transform: translateY(0); }
+    79% { transform: translateY(0); }
+    80% { transform: translateY(2px); }
+    100% { transform: translateY(-4px); }
+  }
+  
+.arrowDown a:after {
+    color: rgb(97, 96, 96);
+    content: '\02193';
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -77px;
+    left: 52%;
+    margin-left: -10px;
+    
+    animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
+  }
+  
+.circle {
+    height: 124px;
+    width: 124px;
+  }
+    
+.background {
+    fill: transparent;
+    stroke: rgba(255, 255, 255, 0.1);
+    transition: all 200ms ease;
+  }
+    
+.foreground {
+    fill: transparent;
+    stroke-dasharray: 377;
+    stroke-dashoffset: 377;
+    stroke: rgb(97, 96, 96);
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+    transition: all 800ms ease;
+  }
+      
+.arrowDown a:hover .foreground {
+    stroke-dashoffset: 0;
+    transform: rotate(90deg);
+  }
+  
+  @keyframes arrow-bounce {
+    0% { transform: translateY(2px); }
+    100% { transform: translateY(-4px); }
+  }
+  
+.arrowDown a:hover:after {
+    animation: arrow-bounce 0.5s infinite alternate ease-out;
+  }
+
+/*------------------------------------------------------CAROUSEL--------------------------------------------------*/
+.slider-wrapper {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    height: calc(100vh - 2rem);
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slide-arrow {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 2rem;
+    font-size: 3rem;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 100ms;
+    
+  }
+  
+  .slide-arrow:hover,
+  .slide-arrow:focus {
+    opacity: 1;
+  }
+  
+  #slide-arrow-prev {
+    left: 0;
+    padding-left: 0.25rem;
+    border-radius: 0 2rem 2rem 0;
+  }
+  
+  #slide-arrow-next {
+    right: 0;
+    padding-left: 0.75rem;
+    border-radius: 2rem 0 0 2rem;
+  }
+  
+.slide {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+    
+  }
+  
+.slide:nth-child(1) {
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+.slide:nth-child(2) {
+    background-color: rgb(255, 255,255);
+  }
+  
+
+.slide h2{
+  position: relative;
+  top:15%;
+  left:15%;
+  font-family: "Darker Grotesque";
+  color: rgb(97, 96, 96);
+}
+
+.slide img{
+  position: relative;
+  top: 30%;
+  left:25%;
+}
+
+.slide button{
+  position: relative;
+  top: -5%;
+  left: 55%;
+  display: block;
+  margin: 15px;
+  width: 150px;
+  padding: 10px;
+  background-color: white;
+  border: 5px solid rgb(97, 96, 96);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.slide button:hover{
+  background-color:rgb(97, 96, 96);
+  color: white;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 5px 10px 0 rgba(0,0,0,0.19);
+}
+
+.slide a{
+  text-decoration:none;
+  text-align: center;
+}
+
+.slide a:hover{
+  color: white;
+}
+
+
+/*------------------------------------------------------MEDIA QUERIES--------------------------------------------------*/
+@media screen and (max-width: 845px){
+  header div h1{
+    display: none;
+  }
+
+  header nav ul li a{
+    font-size: 10px;
+  }
+
+  .navbar{
+  display: flex;
+  justify-content: center;
+  }
+
+  .slide img{
+    position: relative;
+    top: 10%;
+    left:27%;
+  }
+  
+  .slide button{
+    position: relative;
+    top: 10%;
+    left: 35%;
+    
+  }
+
+ 
+  
+  #container4 ul li{
+    list-style: none;
+    float:none;
+    margin: 10px 0px 10px -30px;
+    
+  }
+
+  .slide h2{
+   
+    top:5%;
+    left:35%;
+    
+  }
+  
+}
