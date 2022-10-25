@@ -39,7 +39,7 @@ header h1 {
     font-family: "Quicksand";
     float:left;
     margin-top: 10px;
-    color: rgb(97, 96, 96);
+    color: rgb(255, 255, 255);
     
     
 }
@@ -58,7 +58,7 @@ header nav ul li a {
     font-weight: bold;
     margin-right: 20px;
     float: left;
-    color: rgb(97, 96, 96);
+    color: rgb(255, 255, 255);
     font-family: "Quicksand";
     text-decoration:none;
     
@@ -194,7 +194,7 @@ header nav ul li a:hover {
 /*------------------------------------------------------CONTACTS--------------------------------------------------*/
 
 #container4{
-    background-color: rgb(97, 96, 96);
+    background-color: rgba(97, 96, 96, 0.489);
     height: 300px;
     width: 100vw;
     padding: 0 10px;
