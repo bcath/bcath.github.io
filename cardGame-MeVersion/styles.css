@@ -327,7 +327,22 @@ body{
         left: 22px;
         bottom: -15px;
       } 
-
-
-
 }
+
+
+/*Media queries - Cards Size and disposition*/
+@media screen and (max-width: 640px) {
+    #sectionGame{
+        padding-top: 50px;
+        grid-template-columns: repeat(4, 8rem);
+        grid-template-rows: repeat(4, 8rem);
+        grid-gap: 1rem;
+    }
+    .card{
+        width: 60%;
+        height: 60%;
+    }
+
+    
+}
+
