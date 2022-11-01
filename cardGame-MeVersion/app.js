@@ -64,7 +64,7 @@ const cardsArray =[
 
 cardsArray.sort(() => 0.5 - Math.random())
 
-const grid =document.querySelector("section")
+const grid =document.querySelector("#sectionGame")
 const result=document.querySelector("#result")
 result.textContent="Score: 0";
 let cardsChosen = []

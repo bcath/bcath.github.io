@@ -6,32 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Cards Game</title>
     <link rel="stylesheet" href="styles.css"></link>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="preconnect" href="https://fonts.googleapis.com">   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
 
 
+
 </head>
 <body>
+  
     <header>
-    <div class="custom-shape-divider-top-1667244970">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-            <style type="text/css">
-                .custom-shape-divider-top-1667244970 .shape-fill{fill:url(#MyGradient)}
-              </style>
-              <defs>
-                <linearGradient id="MyGradient">
-                  <stop offset="5%" stop-color="#7db432" />
-                  <stop offset="95%" stop-color="#4eac6c" />
-                </linearGradient>
-              </defs>
-        </svg>
-    </div>
 
-    <div >
-        <svg id="logo" width="204" height="91" viewBox="0 0 204 91" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+      <div id="logo-container" >
+        <svg id="logoTitle" width="204" height="91" viewBox="0 0 204 91" fill="transparent" xmlns="http://www.w3.org/2000/svg">
             <path d="M16.12 2.12V22.72C16.12 25.0133 15.4133 26.8533 14 28.24C12.5867 29.6 10.72 30.28 8.4 30.28C6.05333 30.28 4.17333 29.5867 2.76 28.2C1.34667 26.7867 0.639999 24.8667 0.639999 22.44H4.28C4.30667 23.8 4.65333 24.9067 5.32 25.76C6.01333 26.6133 7.04 27.04 8.4 27.04C9.76 27.04 10.7733 26.64 11.44 25.84C12.1067 25.0133 12.44 23.9733 12.44 22.72V2.12H16.12Z" stroke="white" & stroke-width="1"/>
             <path d="M47.2909 18.2C47.2909 18.8933 47.2509 19.6267 47.1709 20.4H29.6509C29.7843 22.56 30.5176 24.2533 31.8509 25.48C33.2109 26.68 34.8509 27.28 36.7709 27.28C38.3443 27.28 39.6509 26.92 40.6909 26.2C41.7576 25.4533 42.5043 24.4667 42.9309 23.24H46.8509C46.2643 25.3467 45.0909 27.0667 43.3309 28.4C41.5709 29.7067 39.3843 30.36 36.7709 30.36C34.6909 30.36 32.8243 29.8933 31.1709 28.96C29.5443 28.0267 28.2643 26.7067 27.3309 25C26.3976 23.2667 25.9309 21.2667 25.9309 19C25.9309 16.7333 26.3843 14.7467 27.2909 13.04C28.1976 11.3333 29.4643 10.0267 31.0909 9.12C32.7443 8.18666 34.6376 7.72 36.7709 7.72C38.8509 7.72 40.6909 8.17333 42.2909 9.08C43.8909 9.98667 45.1176 11.24 45.9709 12.84C46.8509 14.4133 47.2909 16.2 47.2909 18.2ZM43.5309 17.44C43.5309 16.0533 43.2243 14.8667 42.6109 13.88C41.9976 12.8667 41.1576 12.1067 40.0909 11.6C39.0509 11.0667 37.8909 10.8 36.6109 10.8C34.7709 10.8 33.1976 11.3867 31.8909 12.56C30.6109 13.7333 29.8776 15.36 29.6909 17.44H43.5309Z" stroke="white" & stroke-width="1"/>
             <path d="M75.5356 8.08V30H71.8956V26.76C71.2023 27.88 70.229 28.76 68.9756 29.4C67.749 30.0133 66.389 30.32 64.8956 30.32C63.189 30.32 61.6556 29.9733 60.2956 29.28C58.9356 28.56 57.8556 27.4933 57.0556 26.08C56.2823 24.6667 55.8956 22.9467 55.8956 20.92V8.08H59.4956V20.44C59.4956 22.6 60.0423 24.2667 61.1356 25.44C62.229 26.5867 63.7223 27.16 65.6156 27.16C67.5623 27.16 69.0956 26.56 70.2156 25.36C71.3356 24.16 71.8956 22.4133 71.8956 20.12V8.08H75.5356Z" stroke="white" & stroke-width="1"/>
@@ -46,14 +35,125 @@
             <path d="M203.658 78.2C203.658 78.8933 203.618 79.6267 203.538 80.4H186.018C186.151 82.56 186.885 84.2533 188.218 85.48C189.578 86.68 191.218 87.28 193.138 87.28C194.711 87.28 196.018 86.92 197.058 86.2C198.125 85.4533 198.871 84.4667 199.298 83.24H203.218C202.631 85.3467 201.458 87.0667 199.698 88.4C197.938 89.7067 195.751 90.36 193.138 90.36C191.058 90.36 189.191 89.8933 187.538 88.96C185.911 88.0267 184.631 86.7067 183.698 85C182.765 83.2667 182.298 81.2667 182.298 79C182.298 76.7333 182.751 74.7467 183.658 73.04C184.565 71.3333 185.831 70.0267 187.458 69.12C189.111 68.1867 191.005 67.72 193.138 67.72C195.218 67.72 197.058 68.1733 198.658 69.08C200.258 69.9867 201.485 71.24 202.338 72.84C203.218 74.4133 203.658 76.2 203.658 78.2ZM199.898 77.44C199.898 76.0533 199.591 74.8667 198.978 73.88C198.365 72.8667 197.525 72.1067 196.458 71.6C195.418 71.0667 194.258 70.8 192.978 70.8C191.138 70.8 189.565 71.3867 188.258 72.56C186.978 73.7333 186.245 75.36 186.058 77.44H199.898Z" stroke="white" & stroke-width="1"/>
             </svg> 
     </div>
+
     </header>
-    <div id="space"> </div>
+   
+    
+    <!-- <div id="space"> </div> -->
 
-    <h3><span id="result"></span></h3>
-    <section></section>
+    <h3 id="gameTitle"><span id="result"></span></h3>
+    <section id="sectionGame"></section>
 
 
+    <!-- SideBar-->
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <div class="inner">
+
+        <!-- Search 
+          <section id="search" class="alt">
+            <form method="post" action="#">
+              <input type="text" name="query" id="query" placeholder="Recherche" />
+            </form>
+          </section>
+          -->
+          
+
+         Menu 
+          <nav id="menu">
+            <header class="major">
+              <h2>Menu</h2>
+            </header>
+          
+          <!--	
+            <ul>
+              <li><a href="index.html">Homepage</a></li>
+              <li><a href="generic.html">Generic</a></li>
+              <li><a href="elements.html">Elements</a></li>
+              <li>
+                <span class="opener">Submenu</span>
+                <ul>
+                  <li><a href="#">Lorem Dolor</a></li>
+                  <li><a href="#">Ipsum Adipiscing</a></li>
+                  <li><a href="#">Tempus Magna</a></li>
+                  <li><a href="#">Feugiat Veroeros</a></li>
+                </ul>
+                
+              </li>
+              <li><a href="#">Etiam Dolore</a></li>
+              <li><a href="#">Adipiscing</a></li>
+              <li>
+                <span class="opener">Another Submenu</span>
+                <ul>
+                  <li><a href="#">Lorem Dolor</a></li>
+                  <li><a href="#">Ipsum Adipiscing</a></li>
+                  <li><a href="#">Tempus Magna</a></li>
+                  <li><a href="#">Feugiat Veroeros</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Maximus Erat</a></li>
+              <li><a href="#">Sapien Mauris</a></li>
+              <li><a href="#">Amet Lacinia</a></li>
+            </ul>
+          </nav>
+
+         Section 
+          <section>
+            <header class="major">
+              <h2>Ante interdum</h2>
+            </header>
+            <div class="mini-posts">
+              <article>
+                <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+              </article>
+            </div>
+            <ul class="actions">
+              <li><a href="#" class="button">More</a></li>
+            </ul>
+          </section>
+
+              -->
+
+        <!-- Section -->
+          <section>
+            <header class="major">
+              <h2>Contactez-moi</h2>
+            </header>
+            <p>Pour plus d'informations, veuillez me contacter.</p>
+            <ul class="contact">
+              <li class="icon solid fa-envelope"><a href="#">Voir Curriculum Vitae</a></li>	
+            </ul>
+          </section>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+          </footer>
+
+      </div>
+    </div>
+
+</div>
+
+
+  
+    <!-- Scripts-->
     <script src="app.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
     
 </body>
 </html>
