@@ -64,7 +64,8 @@ section{
 }
 
 .back{
-    background-image: url(/images/cardCover.svg);
+    background-color: white;
+    /* background-image: url(/images/cardCover.svg); */
     backface-visibility: hidden;
     
     
