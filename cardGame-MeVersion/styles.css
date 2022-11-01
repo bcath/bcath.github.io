@@ -45,9 +45,6 @@ body{
     color: #9fcb80; 
 }
 
-#space{
-    height: 300px;
-}
 
 
 /*Game style*/
@@ -94,36 +91,7 @@ body{
 }
 
 
-/* shape-divider */
-.custom-shape-divider-top-1667244970 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.custom-shape-divider-top-1667244970 svg {
-    position: relative;
-    display: block;
-    width: calc(148% + 1.3px);
-    height: 278px;
-}
-
-.custom-shape-divider-top-1667244970 .shape-fill {
-    fill:  url(#MyGradient);
-    /* fill: #4eac6c9c; */
-}
-
-/** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
-    .custom-shape-divider-top-1667244970 svg {
-        width: calc(136% + 1.3px);
-        height: 201px;
-    }
-}
 
 
 
@@ -216,6 +184,9 @@ body{
 }
 
 
+
+
+
 /*Speech bubble*/
 
 #core{
@@ -261,3 +232,48 @@ body{
     left: 22px;
     bottom: -15px;
   } 
+  
+
+  /*Medi queries*/
+
+@media screen and (min-height: 200px) and (max-height: 300px) {
+    #logoTitle{  
+        top: 35%;
+        left: 50%;   
+    }
+  }
+
+  @media screen and (min-height: 301px) and (max-height: 500px) {
+    #logoTitle{  
+        top: 23%;
+        left: 50%;   
+    }
+  }
+  
+@media screen and (min-height: 830px) and (max-height: 1000px) {
+    #logoTitle{  
+        top: 12%;
+        left: 50%;   
+    }
+  }
+  
+@media screen and (min-height: 1001px) and (max-height: 1300px) {
+    #logoTitle{  
+        top: 8%;
+        left: 50%;   
+    }
+  }
+
+@media screen and (min-height: 1301px) and (max-height: 1600px) {
+    #logoTitle{  
+        top: 6%;
+        left: 50%;   
+    }
+  }
+
+@media screen and (min-height: 1601px) and (max-height: 1920px) {
+    #logoTitle{  
+        top: 6%;
+        left: 50%;   
+    }
+  }
