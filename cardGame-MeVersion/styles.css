@@ -234,7 +234,7 @@ body{
   } 
   
 
-  /*Medi queries*/
+  /*Media queries - logoTitle*/
 
 @media screen and (min-height: 200px) and (max-height: 300px) {
     #logoTitle{  
@@ -277,3 +277,57 @@ body{
         left: 50%;   
     }
   }
+
+
+/*Media queries - Score*/
+@media screen and (max-width: 1270px) {
+    #gameTitle{
+        font-size: 35px;
+        padding-bottom: 100px;
+    }
+
+
+    .box1 {
+        width: 200px;
+        margin: 25px auto;
+        background: white;
+        border: 1px solid #9fcb80;
+        padding: 20px;
+        text-align: center;
+        font-weight: 900;
+        color: #9fcb80;
+        font-family: arial;
+        position:absolute;
+        top: 50px;
+        right: 200px;
+      }
+    
+      .sb7:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 10px solid #9fcb80;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #9fcb80;
+        border-bottom: 10px solid transparent;
+        left: 20px;
+        bottom: -20px;
+      }
+     
+      .sb7:after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 10px solid #fff;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #fff;
+        border-bottom: 10px solid transparent;
+        left: 22px;
+        bottom: -15px;
+      } 
+
+
+
+}
