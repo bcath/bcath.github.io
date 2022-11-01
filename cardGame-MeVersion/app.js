@@ -68,6 +68,7 @@ const grid =document.querySelector("#sectionGame")
 const result=document.querySelector("#result")
 const message = document.querySelector("#messageTpPlayer")
 result.textContent="Score: 0";
+message.textContent="C'est parti!"
 let cardsChosen = []
 let cardsChosenId = []
 const cardsWon = []
