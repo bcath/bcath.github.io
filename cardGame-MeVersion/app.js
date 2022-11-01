@@ -66,6 +66,7 @@ cardsArray.sort(() => 0.5 - Math.random())
 
 const grid =document.querySelector("#sectionGame")
 const result=document.querySelector("#result")
+const message = document.querySelector("#messageTpPlayer")
 result.textContent="Score: 0";
 let cardsChosen = []
 let cardsChosenId = []
@@ -116,13 +117,13 @@ function checkMatch(){
 
     //click on same image
     if (card1 === card2){
-        alert("Oups! Vous avez cliqué sur la même carte!")
+        message.textContent="Oups! Vous avez cliqué sur la même carte!"
         cards[card1].classList.toggle("toggleCard")
         cards[card2].classList.toggle("toggleCard")
 
     }else if (cardsChosen[0] === cardsChosen[1]){
         //click on 2 same cards
-        alert("Bravo! Vous avez trouvé une paire!")
+        message.textContent="Bravo! Vous avez trouvé une paire!"
         //cards[card1].setAttribute("src", "images/white.png")
         //cards[card2].setAttribute("src", "images/white.png")
         cards[card1].removeEventListener("click", flipCard)
@@ -131,7 +132,7 @@ function checkMatch(){
 
     }else {
         //no match 
-        alert("Pas de chance! Réessayez!")
+        message.textContent="Pas de chance! Réessayez!"
         cards[card1].classList.toggle("toggleCard")
         cards[card2].classList.toggle("toggleCard")
     }
@@ -141,7 +142,7 @@ function checkMatch(){
 
     result.textContent = "Score : " + cardsWon.length
     if (cardsWon.length === cardsArray.length/2){
-        result.textContent = "Félicitations! Vous avez gagné la partie!"
+        message.textContent = "Félicitations! Vous avez gagné la partie!"
     }
 }
 
