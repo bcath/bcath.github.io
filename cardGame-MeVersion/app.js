@@ -63,19 +63,26 @@ const cardsArray =[
 
 ]
 
-cardsArray.sort(() => 0.5 - Math.random())
+//cardsArray.sort(() => 0.5 - Math.random())
 
 const grid =document.querySelector("#sectionGame")
 const result=document.querySelector("#result")
 const message = document.querySelector("#messageTpPlayer")
+const buttonRestart = document.querySelector("#buttonPos");
+buttonRestart.addEventListener("click", restart)
 result.textContent="Score: 0";
 message.textContent="C'est parti!"
 let cardsChosen = []
 let cardsChosenId = []
 const cardsWon = []
 
-function createBoard () {
+function restart () {
+    window.location.reload();
+}
 
+
+function createBoard () {
+    cardsArray.sort(() => 0.5 - Math.random())
     //on va créer des cartes qui ont comme element
     //container - cards - face - backface
     for(let i =0; i< cardsArray.length; i++){

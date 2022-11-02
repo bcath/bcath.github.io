@@ -236,6 +236,15 @@ body{
   } 
   
 
+
+/*Restart Button*/
+#buttonPos{
+    position: absolute;
+    bottom: 10%;
+    left: 38%;
+}
+
+
   /*Media queries - logoTitle*/
 
 @media screen and (min-height: 200px) and (max-height: 300px) {
@@ -335,5 +344,23 @@ body{
     }
 }
 
+/*Media queries - Restart button*/
+@media screen and (max-width: 640px) {
+   #buttonPos{
+    position: absolute;
+    bottom: 10%;
+    left: 33%;
+}
+
+}
+
+@media screen and (max-width: 560px) {
+    #buttonPos{
+     position: absolute;
+     bottom: 10%;
+     left: 28%;
+ }
+ 
+ }
 
 
