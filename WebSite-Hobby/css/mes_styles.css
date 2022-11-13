@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*Début des styles TP2*/
+
 h3{color : #FF3366;}
 figcaption{font-size: x-small;}
 footer{background-color: #FF9966; text-align: center; border: solid 3px #ffffff;}
@@ -22,10 +22,7 @@ footer{background-color: #FF9966; text-align: center; border: solid 3px #ffffff;
 
 h2{text-align: center; font-family: Arial; color: #ffffff; border: double 10px #ffffff; margin: 30px; padding: 20px; background-color: #FF9966;}
 h4{color: #FF3366;}
-/*Fin des styles TP2*/
 
-
-/*Style Tp3*/
 .iframe{width: 95%; margin: auto; height: 350px;}
 .videoperso{width: 95%;}
 .divvideo{text-align: center;}
@@ -62,11 +59,7 @@ address a:hover{color: darkcyan;}
 #liens_genre{text-align: center; margin-top: 15px; margin-bottom: 15px; font-size: medium;}
 #liens_genre>a{color: #FF9966; margin-left: 5px; margin-right: 5px; font-weight: bold; text-decoration: underline;}
 
-/*Fin des styles Tp3 */
 
-
-
-/*Styles tp4*/
 
 /*Styles Formulaire et carte*/
 
@@ -126,6 +119,5 @@ img{max-width :100%;}
     header .mdl-layout__header-row nav{ display: none;}
 }
 
-/*Fin styles tp4*/
 
 
